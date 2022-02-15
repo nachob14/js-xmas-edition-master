@@ -45,4 +45,3 @@ function obtenerContenido(){
     obtenerRegaloAleatorio();
     obtenerImagen();
 }
-
