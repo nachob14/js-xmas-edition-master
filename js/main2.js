@@ -2,10 +2,11 @@ let localStorageIndex = localStorage.length;
 
 
 function guardarInformacionLocalStorage(){
+    
     let nombre = document.querySelector('#nombre').value;
     let descripcionRegalo = document.querySelector('#descripcion-regalo').value;
     let key = `user ${localStorageIndex}`;
-
+    
     localStorage.setItem(key, JSON.stringify(
         {
             username: nombre,
